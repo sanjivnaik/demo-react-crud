@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.1d49c024.css","mappings":"AAAA,MAIE,kBAAmB,CAFnB,YAAa,CADb,YAAa,CAEb,sBAEF","sources":["App.css"],"sourcesContent":[".main {\n  height: 100vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}"],"names":[],"sourceRoot":""}
