@@ -1,14 +1,12 @@
+import React from 'react';
 import './App.css';
-import Read from './components/read/read';
+import ReadComponent from './components/read/ReadComponent';
 
 function App() {
   return (
     <div className='main'>
-      <div>
-        Employee Details
-      </div>
       <div style={{marginTop: 20}}>
-        <Read/>
+        <ReadComponent />
       </div>
     </div>
   );
