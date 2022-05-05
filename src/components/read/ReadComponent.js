@@ -34,7 +34,7 @@ function ReadComponent() {
                 </thead>
                 <tbody>
                     {
-                        this.state.employees.map(
+                        employees.map(
                             employee => 
                             <tr key = {employee.id}>
                                 <td> {employee.id}</td>   
