@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import ReadComponent from './components/read/ReadComponent';
+import CreateComponent from './components/create/CreateComponent';
+import Menubar from './menuitems/Menubar';
 
 function App() {
   return (
@@ -8,7 +10,10 @@ function App() {
       <div style={{marginTop: 20}}>
         <ReadComponent />
       </div>
-    </div>
+      <div style={{marginTop: 20}}>
+        <CreateComponent />
+      </div>
+    </div> 
   );
 }
 
